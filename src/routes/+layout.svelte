@@ -5,20 +5,11 @@
     export let data: LayoutData;
     let preloader: HTMLDivElement;
     onMount(() => {
-        // preloader.
+        // preloader
         window.$ = jQuery
         window.jQuery = jQuery
         jQuery(preloader).delay(0).fadeOut();
         window.readyFn(jQuery);
-
-        // jQuery.post();
-        // new WOW({
-        //     boxClass: 'wow',
-        //     animateClass: 'animated',
-        //     offset: 0,
-        //     mobile: false,
-        //     live: true
-        // }).init();
     })
 </script>
 
@@ -64,17 +55,17 @@
     </button>
     <div class="sidebar">
         <div class="sidebar-logo mb-25">
-            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+            <a href="/"><img src="assets/img/logo/logo.png" alt=""></a>
         </div>
         <div class="sidebar-icon">
             <ul>
-                <li class="active"><a href="index.html"><i class="fi-sr-apps-delete"></i></a></li>
+                <li class="active"><a href="/"><i class="fi-sr-apps-delete"></i></a></li>
                 <li><a href="nft-live-bidding.html"><i class="fi-sr-book-alt"></i></a></li>
                 <li><a href="collections.html"><i class="fi-sr-butterfly"></i></a></li>
                 <li><a href="create-item.html"><i class="fi-sr-camping"></i></a></li>
                 <li><a href="category.html"><i class="fi-sr-crown"></i></a></li>
                 <li><a href="author-profile.html"><i class="fi-sr-settings"></i></a></li>
-                <li><a href="#" id="btnFullscreen"><i class="fi-sr-tool-marquee"></i></a></li>
+                <li><a href="#0" id="btnFullscreen"><i class="fi-sr-tool-marquee"></i></a></li>
             </ul>
         </div>
     </div>
@@ -155,7 +146,7 @@
                             <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
                             <div class="menu-wrap">
                                 <nav class="menu-nav">
-                                    <div class="logo"><a href="index.html"><img src="/assets/img/logo/naftmak.svg" alt=""></a></div>
+                                    <div class="logo"><a href="/"><img src="/assets/img/logo/naftmak.svg" alt=""></a></div>
                                     <div class="header-form">
                                         <form action="#">
                                             <button><i class="flaticon-search"></i></button>
@@ -164,28 +155,9 @@
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
-                                            <li class="active"><a href="index.html">Home</a></li>
+                                            <li class="active"><a href="/">Home</a></li>
                                             <li><a href="nft-marketplace.html">Explore</a></li>
-                                            <li><a href="collections.html">Collection</a></li>
-                                            <li class="menu-item-has-children"><a href="#">Pages</a>
-                                                <ul class="submenu">
-                                                    <li><a href="activity.html">Activity</a></li>
-                                                    <li><a href="category.html">Category</a></li>
-                                                    <li><a href="ranking.html">Ranking</a></li>
-                                                    <li><a href="creators.html">Creators</a></li>
-                                                    <li><a href="market-single.html">Market Single</a></li>
-                                                    <li><a href="nft-live-bidding.html">Live Bidding</a></li>
-                                                    <li><a href="create-item.html">Create Item</a></li>
-                                                    <li><a href="author-profile.html">Author Profile</a></li>
-                                                    <li><a href="login-register.html">Login & Register</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children"><a href="#">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">Our Blog</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="/posts">Guides</a></li>
                                         </ul>
                                     </div>
                                     <div class="header-action d-none d-md-block">
@@ -199,18 +171,18 @@
                             <div class="mobile-menu">
                                 <nav class="menu-box">
                                     <div class="close-btn"><i class="fas fa-times"></i></div>
-                                    <div class="nav-logo"><a href="index.html"><img src="/assets/img/logo/logo.png" alt=""></a>
+                                    <div class="nav-logo"><a href="/"><img src="/assets/img/logo/logo.png" alt=""></a>
                                     </div>
                                     <div class="menu-outer">
                                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                                     </div>
                                     <div class="social-links">
                                         <ul class="clearfix">
-                                            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                                            <li><a href="#0"><span class="fab fa-twitter"></span></a></li>
+                                            <li><a href="#0"><span class="fab fa-facebook-f"></span></a></li>
+                                            <li><a href="#0"><span class="fab fa-pinterest-p"></span></a></li>
+                                            <li><a href="#0"><span class="fab fa-instagram"></span></a></li>
+                                            <li><a href="#0"><span class="fab fa-youtube"></span></a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -237,14 +209,14 @@
                     <div class="col-xl-3 col-lg-4 col-md-5 col-sm-9">
                         <div class="footer-widget">
                             <div class="footer-logo mb-25">
-                                <a href="index.html"><img src="/assets/img/logo/logo.png" alt=""></a>
+                                <a href="/"><img src="/assets/img/logo/logo.png" alt=""></a>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus veritatis sequi doloribus fuga.</p>
                             <ul class="footer-social">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#0"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#0"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#0"><i class="fab fa-pinterest-p"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -267,7 +239,7 @@
                                 <li><a href="login-register.html">Help Center</a></li>
                                 <li><a href="login-register.html">Partners</a></li>
                                 <li><a href="login-register.html">Suggestions</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="/posts">Guides</a></li>
                                 <li><a href="login-register.html">Newsletter</a></li>
                             </ul>
                         </div>
@@ -289,7 +261,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="copyright-text">
-                            <p>All rights reserved © 2022 by <a href="#">ThemeBeyond</a></p>
+                            <p>All rights reserved © 2022 by <a href="#0">ThemeBeyond</a></p>
                         </div>
                     </div>
                     <div class="col-md-6">

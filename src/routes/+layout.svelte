@@ -157,7 +157,7 @@
                                         <ul class="navigation">
                                             <li class="active"><a href="/">Home</a></li>
                                             <li><a href="nft-marketplace.html">Explore</a></li>
-                                            <li><a href="/posts">Guides</a></li>
+                                            <li><a href="/guides">Guides</a></li>
                                         </ul>
                                     </div>
                                     <div class="header-action d-none d-md-block">

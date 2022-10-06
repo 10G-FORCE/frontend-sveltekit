@@ -1,39 +1,5 @@
-<main>
 
-    <!-- breadcrumb-area -->
-    <section class="breadcrumb-area breadcrumb-bg">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-8">
-                    <div class="breadcrumb-content text-center">
-                        <h3 class="title">Latest News</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- breadcrumb-area-end -->
-
-    <!-- category-area -->
-    <div class="category-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <ul class="category-list">
-                        <li class="active"><a href="index.html"><img src="/assets/img/icons/cat_001.png" alt=""> All</a></li>
-                        <li><a href="nft-marketplace.html"><img src="/assets/img/icons/cat_01.png" alt=""> Games</a></li>
-                        <li><a href="nft-marketplace.html"><img src="/assets/img/icons/cat_02.png" alt=""> Art</a></li>
-                        <li><a href="nft-marketplace.html"><img src="/assets/img/icons/cat_03.png" alt=""> Trading Cards</a></li>
-                        <li><a href="nft-marketplace.html"><img src="/assets/img/icons/cat_04.png" alt=""> Music</a></li>
-                        <li><a href="nft-marketplace.html"><img src="/assets/img/icons/cat_05.png" alt=""> Domain Names</a></li>
-                        <li><a href="nft-marketplace.html"><img src="/assets/img/icons/cat_06.png" alt=""> Memes</a></li>
-                        <li><a href="nft-marketplace.html"><img src="/assets/img/icons/cat_07.png" alt=""> Collectibles</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- category-area-end -->
 
     <!-- blog-area -->
     <section class="blog-area pt-80 pb-40">
@@ -178,5 +144,3 @@
         </div>
     </section>
     <!-- blog-area-end -->
-
-</main>

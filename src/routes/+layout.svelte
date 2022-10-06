@@ -2,7 +2,10 @@
 	import { onMount } from 'svelte';
     import type { LayoutData } from './$types';
     import jQuery from 'jquery';
+	import { page } from '$app/stores';
     export let data: LayoutData;
+    import '../styles/app.css';
+    import '../styles/responsive.css';
     let preloader: HTMLDivElement;
     onMount(() => {
         // preloader
@@ -15,30 +18,31 @@
 
 <svelte:head>
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-        <!-- Place favicon.ico in the root directory -->
-
-		<!-- CSS here -->
-        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/assets/css/animate.min.css">
-        <link rel="stylesheet" href="/assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="/assets/css/uicons-solid-rounded.css">
-        <link rel="stylesheet" href="/assets/css/jquery.mCustomScrollbar.min.css">
-        <link rel="stylesheet" href="/assets/css/flaticon.css">
-        <link rel="stylesheet" href="/assets/css/slick.css">
-        <link rel="stylesheet" href="/assets/css/default.css">
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <link rel="stylesheet" href="/assets/css/responsive.css">
-        <script defer src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-        <script defer src="assets/js/bootstrap.min.js"></script>
-        <script defer src="assets/js/isotope.pkgd.min.js"></script>
-        <script defer src="assets/js/imagesloaded.pkgd.min.js"></script>
-        <script defer src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script defer src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script defer src="assets/js/slick.min.js"></script>
-        <script defer src="assets/js/wow.min.js"></script>
-        <script defer src="assets/js/plugins.js"></script>
-        <script defer src="assets/js/main.js"></script>
+    <!-- Place favicon.ico in the root directory -->
+    <title>10G FORCE</title>
+    <meta name="description" content="The Best simple blockchain networking platform">
+    <!-- CSS here -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/css/uicons-solid-rounded.css">
+    <link rel="stylesheet" href="/assets/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/assets/css/slick.css">
+    <link rel="stylesheet" href="/assets/css/default.css">
+    <!-- <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css"> -->
+    <script defer src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script defer src="assets/js/bootstrap.min.js"></script>
+    <script defer src="assets/js/isotope.pkgd.min.js"></script>
+    <script defer src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script defer src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script defer src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script defer src="assets/js/slick.min.js"></script>
+    <script defer src="assets/js/wow.min.js"></script>
+    <script defer src="assets/js/plugins.js"></script>
+    <script defer src="assets/js/main.js"></script>
 </svelte:head>
 <div class="">
     <div id="preloader" bind:this={preloader}>
@@ -69,73 +73,6 @@
             </ul>
         </div>
     </div>
-    <!-- <div class="offcanvas-wrapper">
-        <div class="menu-trigger"><i class="fi-sr-angle-small-left"></i></div>
-        <div class="menu-close"><i class="fi-sr-angle-small-right"></i></div>
-        <div class="offcanvas-inner scroll">
-            <div class="author-profile text-center mb-30">
-                <div class="author-img">
-                    <img src="assets/img/others/author_img.png" alt="">
-                </div>
-                <div class="author-content">
-                    <h4 class="title">Author Profile</h4>
-                    <p>Super Author</p>
-                    <a href="login-register.html" class="btn">Checkout</a>
-                </div>
-            </div>
-            <div class="sidebar-slider text-center mb-25">
-                <div class="sidebar-active">
-                    <div class="sidebar-img">
-                        <a href="market-single.html"><img src="assets/img/others/sidebar_img01.png" alt=""></a>
-                    </div>
-                    <div class="sidebar-img">
-                        <a href="market-single.html"><img src="assets/img/others/sidebar_img02.png" alt=""></a>
-                    </div>
-                    <div class="sidebar-img">
-                        <a href="market-single.html"><img src="assets/img/others/sidebar_img03.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-            <div class="overview">
-                <div class="overview-title">
-                    <h4 class="title">Overview</h4>
-                </div>
-                <div class="overview-item-wrap">
-                    <div class="overview-item">
-                        <div class="overview-icon">
-                            <i class="fi-sr-box-alt"></i>
-                        </div>
-                        <div class="overview-content">
-                            <h4 class="title">Open project</h4>
-                            <span>820</span>
-                        </div>
-                        <a href="nft-marketplace.html"><i class=" fi-sr-angle-small-right"></i></a>
-                    </div>
-                    <div class="overview-item">
-                        <div class="overview-icon">
-                            <i class="fi-sr-mountains"></i>
-                        </div>
-                        <div class="overview-content">
-                            <h4 class="title">Successful Completed</h4>
-                            <span>546</span>
-                        </div>
-                        <a href="nft-marketplace.html"><i class=" fi-sr-angle-small-right"></i></a>
-                    </div>
-                    <div class="overview-item">
-                        <div class="overview-icon">
-                            <i class=" fi-sr-hourglass-end"></i>
-                        </div>
-                        <div class="overview-content">
-                            <h4 class="title">trending</h4>
-                            <span>32</span>
-                        </div>
-                        <a href="nft-marketplace.html"><i class=" fi-sr-angle-small-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="offcanvas-overly"></div> -->
     <div class="main-content">
         <!-- header-area -->
         <header>
@@ -197,65 +134,31 @@
         <!-- header-area-end -->
     
         <!-- main-area -->
-    <slot/>
+        <main>
+
+            <!-- breadcrumb-area -->
+            {#if $page.data.breadcrumb}
+            <section class="breadcrumb-area breadcrumb-bg">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 col-md-8">
+                            <div class="breadcrumb-content text-center">
+                                <h3 class="title">Latest News</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/if}
+        <slot/>
+
+
+        </main>
         <!-- main-area-end -->
 
 
     <!-- footer-area -->
     <footer>
-        <div class="footer-top-wrap">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-xl-3 col-lg-4 col-md-5 col-sm-9">
-                        <div class="footer-widget">
-                            <div class="footer-logo mb-25">
-                                <a href="/"><img src="/assets/img/logo/logo.png" alt=""></a>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus veritatis sequi doloribus fuga.</p>
-                            <ul class="footer-social">
-                                <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#0"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#0"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#0"><i class="fab fa-pinterest-p"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6">
-                        <div class="footer-widget">
-                            <h4 class="fw-title">Useful Links</h4>
-                            <ul class="fw-links">
-                                <li><a href="nft-marketplace.html">All NFTs</a></li>
-                                <li><a href="login-register.html">How It Works</a></li>
-                                <li><a href="create-item.html">Create</a></li>
-                                <li><a href="nft-marketplace.html">Explore</a></li>
-                                <li><a href="login-register.html">Privacy & Terms</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6">
-                        <div class="footer-widget">
-                            <h4 class="fw-title">Community</h4>
-                            <ul class="fw-links">
-                                <li><a href="login-register.html">Help Center</a></li>
-                                <li><a href="login-register.html">Partners</a></li>
-                                <li><a href="login-register.html">Suggestions</a></li>
-                                <li><a href="/posts">Guides</a></li>
-                                <li><a href="login-register.html">Newsletter</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="footer-widget">
-                            <h4 class="fw-title">Subscribe Us</h4>
-                            <form action="#" class="newsletter-form">
-                                <input type="email" placeholder="info@youmail.com">
-                                <button type="submit"><i class="flaticon-small-rocket-ship-silhouette"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="copyright-wrap">
             <div class="container">
                 <div class="row align-items-center">
@@ -277,5 +180,10 @@
     </footer>
     <!-- footer-area-end -->
 
+    </div>
 </div>
-</div>
+<style>
+    :global(.t10g-top) {
+        padding: 160px 0 140px !important;
+    }
+</style>

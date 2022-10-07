@@ -855,7 +855,7 @@ label {
 	position: absolute;
 	left: 0;
 	top: 0;
-	background-image: url(../img/bg/sidebar_bg.png);
+	background-image: url(/assets/img/bg/sidebar_bg.png);
 	width: 100%;
 	height: 184px;
 	z-index: -1;
@@ -1146,7 +1146,7 @@ label {
 
 /* 5. Breadcrumb */
 .breadcrumb-bg {
-	background-image: url(../img/bg/breadcrumb_bg.png);
+	background-image: url(/assets/img/bg/breadcrumb_bg.png);
 	background-position: center;
 	background-size: cover;
 	padding: 260px 0 140px;
@@ -1157,7 +1157,7 @@ label {
 	margin-bottom: 0;
 }
 .breadcrumb-bg-two {
-	background-image: url(../img/bg/breadcrumb_bg02.jpg);
+	background-image: url(/assets/img/bg/breadcrumb_bg02.jpg);
 }
 .market-single-breadcrumb-area {
 	padding: 30px 0 30px;
@@ -1168,7 +1168,7 @@ label {
 	top: -30px;
 	width: 100%;
 	height: 260px;
-	background-image: url(../img/bg/breadcrumb_bg.png);
+	background-image: url(/assets/img/bg/breadcrumb_bg.png);
 	background-position: center;
 	background-size: cover;
 	padding: 0;
@@ -1348,7 +1348,7 @@ label {
 
 /* 7. Banner */
 .banner-bg {
-	background-image: url(../img/banner/banner_bg.jpg);
+	background-image: url(/assets/img/banner/banner_bg.jpg);
 	background-size: cover;
 	background-position: top center;
 }
@@ -2038,7 +2038,7 @@ label {
 
 /* 10. Features */
 .area-bg {
-	background-image: url(../img/bg/features_bg.png);
+	background-image: url(/assets/img/bg/features_bg.png);
 	background-position: top center;
 	background-size: cover;
 	position: relative;
@@ -3136,7 +3136,7 @@ label {
 	left: 30px;
 	top: 50%;
 	transform: translateY(-50%);
-	background-image: url('../img/others/testimonial_shape01.png');
+	background-image: url('/assets/img/others/testimonial_shape01.png');
 	width: 337px;
 	height: 337px;
 	z-index: -1;
@@ -3144,7 +3144,7 @@ label {
 .testimonial-shape-wrap::after {
 	left: auto;
 	right: 30px;
-	background-image: url('../img/others/testimonial_shape02.png');
+	background-image: url('/assets/img/others/testimonial_shape02.png');
 }
 .testimonial-shape-wrap .testimonial-active {
 	padding: 0 0;
@@ -3326,7 +3326,7 @@ label {
 	margin-bottom: 0;
 }
 .standard-blog-content .blog-line {
-	background-image: url(../img/blog/blog_line.png);
+	background-image: url(/assets/img/blog/blog_line.png);
 	display: block;
 	width: 100%;
 	height: 7px;

@@ -1,5 +1,9 @@
 <script lang="ts">
     import type { PageData } from './$types';
+    import MetamaskController from '$lib/controllers/MetamaskController';
+    import JsonViewer from '$lib/components/JsonViewer.svelte';
+	import { onMount } from 'svelte';
+    const {store} = MetamaskController;
     const svgs = {
         coldIdle: `<svg class="t10g-pending-svg flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="#fff" xmlns="http://www.w3.org/2000/svg"><path stroke-width="1.5" stroke-linecap="round" stroke-linejoin="" d="M12 21.5a9.5 9.5 0 1 0 0-19 9.5 9.5 0 0 0 0 19ZM12"></path></svg>`,
         hotIdle: `<svg class="flex-shrink-0 t10g-pending-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" stroke="#59606b"><g fill="none" fill-rule="evenodd" stroke-width="2"><circle cx="22" cy="22" r="1"><animate attributeName="r" begin="0s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite"></animate><animate attributeName="stroke-opacity" begin="0s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite"></animate></circle><circle cx="22" cy="22" r="1"><animate attributeName="r" begin="-0.9s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite"></animate><animate attributeName="stroke-opacity" begin="-0.9s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite"></animate></circle></g></svg>`,
@@ -10,6 +14,9 @@
     };
     
     export let data: PageData;
+    onMount(async ()=>{
+        // await MetamaskController.init()
+    });
 </script>
 
     <section class="login-welcome-area t10g-top">
@@ -27,6 +34,7 @@
                     </div>
                 </div>
             </div>
+            <JsonViewer data={$store}/>
             <div class="row">
                 <div class="col-md-6">
                     <div class="another-way-signup">

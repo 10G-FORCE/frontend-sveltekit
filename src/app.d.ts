@@ -20,6 +20,7 @@ declare global {
 		openMobileMenu: any;
 		toggleMobileMenu: any;
 		QRCode: any;
+		ethereum: any;
 	}
 }
 export {};

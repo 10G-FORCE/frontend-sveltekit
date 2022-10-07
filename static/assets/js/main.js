@@ -1,91 +1,4 @@
-function readyFn($) {
-	'use strict';
-
-	/*=============================================
-	=    		 Preloader			      =
-=============================================*/
-	function preloader() {
-		$('#preloader').delay(0).fadeOut();
-	}
-
-	$(window).on('load', function () {
-		// preloader();
-		// wowAnimation();
-	});
-	wowAnimation();
-
-	/*=============================================
-	=    		Mobile Menu			      =
-=============================================*/
-	//SubMenu Dropdown Toggle
-	if ($('.menu-area li.menu-item-has-children ul').length) {
-		$('.menu-area .navigation li.menu-item-has-children').append(
-			'<div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>'
-		);
-	}
-
-	//Mobile Nav Hide Show
-	if ($('.mobile-menu').length) {
-		var mobileMenuContent = $('.menu-area .main-menu').html();
-		$('.mobile-menu .menu-box .menu-outer').append(mobileMenuContent);
-
-		//Dropdown Button
-		$('.mobile-menu li.menu-item-has-children .dropdown-btn').on('click', function () {
-			$(this).toggleClass('open');
-			$(this).prev('ul').slideToggle(500);
-		});
-		//Menu Toggle Btn
-		$('.mobile-nav-toggler').on('click', function () {
-			$('body').addClass('mobile-menu-visible');
-		});
-
-		//Menu Toggle Btn
-		$('.menu-backdrop, .mobile-menu .close-btn').on('click', function () {
-			$('body').removeClass('mobile-menu-visible');
-		});
-	}
-
-	/*=============================================
-	=     Menu sticky & Scroll to top      =
-=============================================*/
-	$(window).on('scroll', function () {
-		var scroll = $(window).scrollTop();
-		if (scroll < 245) {
-			$('#sticky-header').removeClass('sticky-menu');
-			$('.scroll-to-target').removeClass('open');
-		} else {
-			$('#sticky-header').addClass('sticky-menu');
-			$('.scroll-to-target').addClass('open');
-		}
-	});
-
-	/*=============================================
-	=    		 Scroll Up  	         =
-=============================================*/
-	if ($('.scroll-to-target').length) {
-		$('.scroll-to-target').on('click', function () {
-			var target = $(this).attr('data-target');
-			// animate
-			$('html, body').animate(
-				{
-					scrollTop: $(target).offset().top
-				},
-				1000
-			);
-		});
-	}
-
-	/*=============================================
-	=            Custom Scroll            =
-=============================================*/
-	$(window).on('load', function () {
-		if ($('.scroll').length) {
-			$('.scroll').mCustomScrollbar({
-				mouseWheelPixels: 50,
-				scrollInertia: 0
-			});
-		}
-	});
+function readyFn2($) {
 	$('.activity-table-responsive').mCustomScrollbar({
 		axis: 'x',
 		scrollbarPosition: 'outside',
@@ -94,65 +7,6 @@ function readyFn($) {
 			autoExpandHorizontalScroll: true
 		}
 	});
-
-	/*=============================================
-=     Offcanvas Menu      =
-=============================================*/
-	$('.menu-trigger').on('click', function () {
-		$('.offcanvas-wrapper,.offcanvas-overly').addClass('active');
-		return false;
-	});
-	$('.menu-close,.offcanvas-overly').on('click', function () {
-		$('.offcanvas-wrapper,.offcanvas-overly').removeClass('active');
-	});
-
-	/*=============================================
-=           Features - Active                 =
-=============================================*/
-	$('.filter-toggle').on('click', function () {
-		$('.filter-category-wrap').slideToggle(300);
-		return false;
-	});
-
-	/*=============================================
-=           Full Screen - Active         =
-=============================================*/
-	function toggleFullscreen(elem) {
-		elem = elem || document.documentElement;
-		if (
-			!document.fullscreenElement &&
-			!document.mozFullScreenElement &&
-			!document.webkitFullscreenElement &&
-			!document.msFullscreenElement
-		) {
-			if (elem.requestFullscreen) {
-				elem.requestFullscreen();
-			} else if (elem.msRequestFullscreen) {
-				elem.msRequestFullscreen();
-			} else if (elem.mozRequestFullScreen) {
-				elem.mozRequestFullScreen();
-			} else if (elem.webkitRequestFullscreen) {
-				elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
-			}
-		} else {
-			if (document.exitFullscreen) {
-				document.exitFullscreen();
-			} else if (document.msExitFullscreen) {
-				document.msExitFullscreen();
-			} else if (document.mozCancelFullScreen) {
-				document.mozCancelFullScreen();
-			} else if (document.webkitExitFullscreen) {
-				document.webkitExitFullscreen();
-			}
-		}
-	}
-	document.getElementById('btnFullscreen').addEventListener('click', function () {
-		toggleFullscreen();
-	});
-
-	/*=============================================
-	=    		Collection Active		   =
-=============================================*/
 	$('.top-collection-active').slick({
 		dots: false,
 		infinite: true,
@@ -321,10 +175,6 @@ function readyFn($) {
 			}
 		]
 	});
-
-	/*=============================================
-	=    	  Countdown Active  	         =
-=============================================*/
 	$('[data-countdown]').each(function () {
 		var $this = $(this),
 			finalDate = $(this).data('countdown');
@@ -370,6 +220,161 @@ function readyFn($) {
 			$grid.isotope({ filter: filterValue });
 		});
 	});
+}
+function readyFn($) {
+	'use strict';
+
+	/*=============================================
+	=    		 Preloader			      =
+=============================================*/
+	function preloader() {
+		$('#preloader').delay(0).fadeOut();
+	}
+
+	$(window).on('load', function () {
+		// preloader();
+		// wowAnimation();
+	});
+	wowAnimation();
+
+	/*=============================================
+	=    		Mobile Menu			      =
+=============================================*/
+	//SubMenu Dropdown Toggle
+	if ($('.menu-area li.menu-item-has-children ul').length) {
+		$('.menu-area .navigation li.menu-item-has-children').append(
+			'<div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>'
+		);
+	}
+
+	//Mobile Nav Hide Show
+	if ($('.mobile-menu').length) {
+		var mobileMenuContent = $('.menu-area .main-menu').html();
+		$('.mobile-menu .menu-box .menu-outer').append(mobileMenuContent);
+
+		//Dropdown Button
+		$('.mobile-menu li.menu-item-has-children .dropdown-btn').on('click', function () {
+			$(this).toggleClass('open');
+			$(this).prev('ul').slideToggle(500);
+		});
+		//Menu Toggle Btn
+		$('.mobile-nav-toggler').on('click', function () {
+			$('body').addClass('mobile-menu-visible');
+		});
+
+		//Menu Toggle Btn
+		$('.menu-backdrop, .mobile-menu .close-btn').on('click', function () {
+			$('body').removeClass('mobile-menu-visible');
+		});
+	}
+
+	/*=============================================
+	=     Menu sticky & Scroll to top      =
+=============================================*/
+	$(window).on('scroll', function () {
+		var scroll = $(window).scrollTop();
+		if (scroll < 245) {
+			$('#sticky-header').removeClass('sticky-menu');
+			$('.scroll-to-target').removeClass('open');
+		} else {
+			$('#sticky-header').addClass('sticky-menu');
+			$('.scroll-to-target').addClass('open');
+		}
+	});
+
+	/*=============================================
+	=    		 Scroll Up  	         =
+=============================================*/
+	if ($('.scroll-to-target').length) {
+		$('.scroll-to-target').on('click', function () {
+			var target = $(this).attr('data-target');
+			// animate
+			$('html, body').animate(
+				{
+					scrollTop: $(target).offset().top
+				},
+				1000
+			);
+		});
+	}
+
+	/*=============================================
+	=            Custom Scroll            =
+=============================================*/
+	$(window).on('load', function () {
+		if ($('.scroll').length) {
+			$('.scroll').mCustomScrollbar({
+				mouseWheelPixels: 50,
+				scrollInertia: 0
+			});
+		}
+	});
+
+
+	/*=============================================
+=     Offcanvas Menu      =
+=============================================*/
+	$('.menu-trigger').on('click', function () {
+		$('.offcanvas-wrapper,.offcanvas-overly').addClass('active');
+		return false;
+	});
+	$('.menu-close,.offcanvas-overly').on('click', function () {
+		$('.offcanvas-wrapper,.offcanvas-overly').removeClass('active');
+	});
+
+	/*=============================================
+=           Features - Active                 =
+=============================================*/
+	$('.filter-toggle').on('click', function () {
+		$('.filter-category-wrap').slideToggle(300);
+		return false;
+	});
+
+	/*=============================================
+=           Full Screen - Active         =
+=============================================*/
+	function toggleFullscreen(elem) {
+		elem = elem || document.documentElement;
+		if (
+			!document.fullscreenElement &&
+			!document.mozFullScreenElement &&
+			!document.webkitFullscreenElement &&
+			!document.msFullscreenElement
+		) {
+			if (elem.requestFullscreen) {
+				elem.requestFullscreen();
+			} else if (elem.msRequestFullscreen) {
+				elem.msRequestFullscreen();
+			} else if (elem.mozRequestFullScreen) {
+				elem.mozRequestFullScreen();
+			} else if (elem.webkitRequestFullscreen) {
+				elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+			}
+		} else {
+			if (document.exitFullscreen) {
+				document.exitFullscreen();
+			} else if (document.msExitFullscreen) {
+				document.msExitFullscreen();
+			} else if (document.mozCancelFullScreen) {
+				document.mozCancelFullScreen();
+			} else if (document.webkitExitFullscreen) {
+				document.webkitExitFullscreen();
+			}
+		}
+	}
+	document.getElementById('btnFullscreen').addEventListener('click', function () {
+		toggleFullscreen();
+	});
+
+	/*=============================================
+	=    		Collection Active		   =
+=============================================*/
+	
+
+	/*=============================================
+	=    	  Countdown Active  	         =
+=============================================*/
+	
 
 	/*=============================================
 	=    		 Wow Active  	         =
@@ -384,4 +389,5 @@ function readyFn($) {
 		});
 		wow.init();
 	}
+	readyFn2($);
 };

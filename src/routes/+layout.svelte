@@ -33,16 +33,16 @@
     <link rel="stylesheet" href="/assets/css/default.css">
     <!-- <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/responsive.css"> -->
-    <script defer src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script defer src="assets/js/bootstrap.min.js"></script>
-    <script defer src="assets/js/isotope.pkgd.min.js"></script>
-    <script defer src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script defer src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script defer src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script defer src="assets/js/slick.min.js"></script>
-    <script defer src="assets/js/wow.min.js"></script>
-    <script defer src="assets/js/plugins.js"></script>
-    <script defer src="assets/js/main.js"></script>
+    <script defer src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script defer src="/assets/js/bootstrap.min.js"></script>
+    <script defer src="/assets/js/isotope.pkgd.min.js"></script>
+    <script defer src="/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script defer src="/assets/js/jquery.magnific-popup.min.js"></script>
+    <script defer src="/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script defer src="/assets/js/slick.min.js"></script>
+    <script defer src="/assets/js/wow.min.js"></script>
+    <script defer src="/assets/js/plugins.js"></script>
+    <script defer src="/assets/js/main.js"></script>
 </svelte:head>
 <div class="">
     <div id="preloader" bind:this={preloader}>

@@ -43,10 +43,10 @@
 	};
 	
 	let message: string = 'Connect Wallet';
-	$: ({ isNetwork, isNetworkError, isMetamask, isTrust, isConnected, isConnectError } = $web3store);
+	$: ({ isNetwork, isNetworkError, isMetamask, isTrust, isConnected, isConnectError, isWeb3 } = $web3store);
 	$: {
-		isNetworkError && (processState.network_icon = processState.connect_icon = error_svg);
-		!isNetwork && (processState.network_icon = pending_svg);
+		(isNetworkError || !isWeb3) && (processState.network_icon = processState.connect_icon = error_svg);
+		(isWeb3 && !isNetwork) && (processState.network_icon = pending_svg);
 		isNetwork &&
 			(processState.network_icon = success_svg) &&
 			(processState.connect_icon = pending_svg);

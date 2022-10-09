@@ -48,10 +48,11 @@ class MetamaskController {
         }
     }
     async init() {
-        const { ethereum } = window
-        console.log("ETH", ethereum);
+        const ethereum = window.ethereum;
+        // console.log("ETH", ethereum);
 
-        const isWeb3 = Boolean(ethereum);
+        // const isWeb3 = Boolean(ethereum);
+        const isWeb3 = !!ethereum;
         if (!isWeb3) {
             return this.#appStore.set({ ...baseState, message: messageType.NOT_DETECTED });
         }

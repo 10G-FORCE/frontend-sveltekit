@@ -20,6 +20,7 @@ const messageType = {
     NOT_DETECTED: "Web3 not detected",
     LOADING: "loading",
     LOADED: "loaded",
+    CONNECT_ERROR: "error connecting wallet...",
     ERROR: "Internal server error",
 }
 const baseState = {
@@ -27,6 +28,7 @@ const baseState = {
     isNetworkError: false,
     isLocked: false,
     message: messageType.LOADING,
+    account: '',
     isMetamask: false,
     isTrust: false,
     isWeb3: false,
@@ -55,11 +57,15 @@ class MetamaskController {
         }
         const isMetamask = Boolean(ethereum && ethereum.isMetaMask);
         const isTrust = Boolean(ethereum && ethereum.isTrust);
+        const account = (await ethereum.request({method: 'eth_accounts'}))[0]??'';
+        const isConnected = Boolean(account); 
         this.#appStore.update(s => {
             s.isMetamask = isMetamask;
             s.isTrust = isTrust;
             s.isSupportedWallet = isTrust||isMetamask;
             s.isWeb3 = isWeb3;
+            s.account = account;
+            s.isConnected = isConnected;
             s.message = messageType.LOADED;
             s.isNetwork = (ethereum.networkVersion == config.NETWORK.id);
             return s;
@@ -132,9 +138,20 @@ class MetamaskController {
         }
 
         try {
-            await ethereum.request({ method: "eth_requestAccounts" })
+            // todo: send toast notification
+            await ethereum.request({ method: "eth_requestAccounts" });
+            // this.#appStore.update(s => {
+            //     s.isConnectError = false;
+            //     s.isLocked = false;
+            //     s.isConnected = true;
+            //     s.message = messageType.LOADED;
+            //     return s;
+            // });
+            // todo: verify if user is registered
         } catch (error) {
-
+            // todo: send toast notification
+            return this.#appStore.set({ ...baseState, message: messageType.NOT_DETECTED });
+            // todo: verify if user is registered
         }
     }
 }

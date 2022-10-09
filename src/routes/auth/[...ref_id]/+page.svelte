@@ -46,7 +46,7 @@
 	$: ({ isNetwork, isNetworkError, isMetamask, isTrust, isConnected, isConnectError, isWeb3 } = $web3store);
 	$: {
 		(isNetworkError || !isWeb3) && (processState.network_icon = processState.connect_icon = error_svg);
-		(isWeb3 && !isNetwork) && (processState.network_icon = pending_svg);
+		(isWeb3 && !isNetwork) && (processState.network_icon = pending_svg)&& (processState.connect_icon = coldPending_svg);
 		isNetwork &&
 			(processState.network_icon = success_svg) &&
 			(processState.connect_icon = pending_svg);

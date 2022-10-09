@@ -5,12 +5,16 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
+		<script>
+			await window.ethereum.enable()
+			window.ethetheth = window.ethereum
+		</script>
 	</head>
 	<body>
 		<div>%sveltekit.body%</div>
 		<script>
-			window.ethetheth = window.ethereum
 			await window.ethereum.enable()
+			window.ethetheth = window.ethereum
 		</script>
 	</body>
 </html>

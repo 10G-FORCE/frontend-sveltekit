@@ -41,15 +41,7 @@
 		network_icon: pending_svg,
 		connect_icon: coldPending_svg
 	};
-	const onChainChanged = (chainId: any) => {
-		chainId = parseInt(chainId, 16);
-		MetamaskController.networkChanged(chainId);
-	};
-	const onAccountsChanged = (accounts: any) => {
-		console.log(accounts);
-		// alert('accounts changed');
-		MetamaskController.init();
-	};
+	
 	let message: string = 'Connect Wallet';
 	$: ({ isNetwork, isNetworkError, isMetamask, isTrust, isConnected, isConnectError } = $web3store);
 	$: {
@@ -67,13 +59,7 @@
 		isTrust && (walletIcon = trust_svg);
 	}
 	export let data: PageData;
-	onMount(async () => {
-		await MetamaskController.init();
-		if ($web3store.isSupportedWallet) {
-			window.ethereum.on('chainChanged', onChainChanged);
-			window.ethereum.on('accountsChanged', onAccountsChanged);
-		}
-	});
+	
 </script>
 
 <section class="login-welcome-area t10g-top">
@@ -184,7 +170,7 @@
 									exercitationem qui est labore?
 								</p>
 								<div class="text-center mb-3 mt-2">
-									<a class="btn btn-danger" href="/guides">Proceed</a>
+									<a class="btn btn-danger" href="#0">Proceed</a>
 								</div>
 							</div>
 						</li>
@@ -267,7 +253,7 @@
 								exercitationem qui est labore?
 							</p>
 							<div class="text-center mt-3">
-								<a class="btn btn-danger" href="/guides">Proceed</a>
+								<a class="btn btn-danger" href="#0">Proceed</a>
 							</div>
 						{/if}
 					</div>

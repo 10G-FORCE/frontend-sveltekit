@@ -148,9 +148,11 @@ class MetamaskController {
             //     return s;
             // });
             // todo: verify if user is registered
-        } catch (error) {
+        } catch (error:any) {
             // todo: send toast notification
-            return this.#appStore.set({ ...baseState, message: messageType.NOT_DETECTED });
+            if (error.code != (-32002)) {
+                return this.#appStore.set({ ...baseState, message: messageType.NOT_DETECTED });
+            }
             // todo: verify if user is registered
         }
     }

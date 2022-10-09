@@ -3956,7 +3956,7 @@ label {
 	color: #aaa9a9;
 	width: 70%;
 }
-.another-way-list li a {
+.another-way-list li a:not(.btn) {
 	display: flex;
 	align-items: center;
 	background: #0d0b26;

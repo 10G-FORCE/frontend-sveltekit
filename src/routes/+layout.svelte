@@ -59,16 +59,16 @@
     </button>
     <div class="sidebar">
         <div class="sidebar-logo mb-25">
-            <a href="/"><img src="assets/img/logo/logo.png" alt=""></a>
+            <a href="/"><img src="" alt="10G"></a>
         </div>
         <div class="sidebar-icon">
             <ul>
                 <li class="active"><a href="/"><i class="fi-sr-apps-delete"></i></a></li>
-                <li><a href="nft-live-bidding.html"><i class="fi-sr-book-alt"></i></a></li>
-                <li><a href="collections.html"><i class="fi-sr-butterfly"></i></a></li>
-                <li><a href="create-item.html"><i class="fi-sr-camping"></i></a></li>
-                <li><a href="category.html"><i class="fi-sr-crown"></i></a></li>
-                <li><a href="author-profile.html"><i class="fi-sr-settings"></i></a></li>
+                <li><a href="/"><i class="fi-sr-book-alt"></i></a></li>
+                <li><a href="/"><i class="fi-sr-butterfly"></i></a></li>
+                <li><a href="/"><i class="fi-sr-camping"></i></a></li>
+                <li><a href="/"><i class="fi-sr-crown"></i></a></li>
+                <li><a href="/"><i class="fi-sr-settings"></i></a></li>
                 <li><a href="#0" id="btnFullscreen"><i class="fi-sr-tool-marquee"></i></a></li>
             </ul>
         </div>
@@ -83,7 +83,7 @@
                             <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
                             <div class="menu-wrap">
                                 <nav class="menu-nav">
-                                    <div class="logo"><a href="/"><img src="/assets/img/logo/naftmak.svg" alt=""></a></div>
+                                    <div class="logo"><a href="/"><img src="" alt="10GLOGO"></a></div>
                                     <div class="header-form">
                                         <form action="#">
                                             <button><i class="flaticon-search"></i></button>
@@ -93,15 +93,17 @@
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
                                             <li class="active"><a href="/">Home</a></li>
-                                            <li><a href="nft-marketplace.html">Explore</a></li>
+                                            <!-- <li><a href="/">Explore</a></li> -->
                                             <li><a href="/guides">Guides</a></li>
+                                            <li><a href="/auth">LOGIN</a></li>
+                                            <li><a href="/auth">SIGNUP</a></li>
                                         </ul>
                                     </div>
-                                    <div class="header-action d-none d-md-block">
+                                    <!-- <div class="header-action d-none d-md-block">
                                         <ul>
                                             <li class="header-btn"><a href="/auth" class="btn">GET IN!</a></li>
                                         </ul>
-                                    </div>
+                                    </div> -->
                                 </nav>
                             </div>
                             <!-- Mobile Menu  -->
@@ -164,14 +166,14 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="copyright-text">
-                            <p>All rights reserved © 2022 by <a href="#0">ThemeBeyond</a></p>
+                            <p>All rights reserved © 2022 by <a href="#0">T10G Network</a></p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <ul class="copyright-link-list">
-                            <li><a href="login-register.html">Privacy Policy</a></li>
-                            <li><a href="login-register.html">Terms And Condition</a></li>
-                            <li><a href="login-register.html">Contact Us</a></li>
+                            <li><a href="/">Privacy Policy</a></li>
+                            <li><a href="/">Terms And Condition</a></li>
+                            <li><a href="/">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -184,6 +186,6 @@
 </div>
 <style>
     :global(.t10g-top) {
-        padding: 160px 0 140px !important;
+        padding: 160px 0 80px !important;
     }
 </style>

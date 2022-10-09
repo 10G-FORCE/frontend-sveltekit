@@ -59,6 +59,8 @@
 	<script defer src="/assets/js/plugins.js"></script>
 	<script defer src="/assets/js/main.js"></script>
 	<script defer src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.min.js"></script>
+
 </svelte:head>
 <div class="">
 	<div id="preloader" bind:this={preloader}>

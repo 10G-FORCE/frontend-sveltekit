@@ -10,7 +10,8 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		serviceWorker: {
-			register: false,
+			register: true,
+			files: (filepath) => !/\.DS_Store/.test(filepath)
 		},
 	},
 	files: {

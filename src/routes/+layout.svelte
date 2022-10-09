@@ -22,7 +22,7 @@
 		window.$ = jQuery;
 		window.jQuery = jQuery;
 		jQuery(preloader).delay(0).fadeOut();
-		await MetamaskController.init();
+		// await MetamaskController.init();
 		if ($web3store.isSupportedWallet) {
             window.ethereum.on('chainChanged', onChainChanged);
 			window.ethereum.on('accountsChanged', onAccountsChanged);

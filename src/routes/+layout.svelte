@@ -58,6 +58,7 @@
 	<script defer src="/assets/js/wow.min.js"></script>
 	<script defer src="/assets/js/plugins.js"></script>
 	<script defer src="/assets/js/main.js"></script>
+	<script defer src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
 </svelte:head>
 <div class="">
 	<div id="preloader" bind:this={preloader}>

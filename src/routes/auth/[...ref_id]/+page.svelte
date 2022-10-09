@@ -13,8 +13,8 @@
 	import coldPending_svg from '$lib/assets/svgs/hot-idle.svg';
 	import polygon_icon from '$lib/assets/images/icons/polygon.png';
 	import Web3msg from './web3msg.svelte';
+	import { browser } from '$app/environment';
 	const { web3store } = MetamaskController;
-
 	const svgs = {
 		coldIdle: ``,
 		hotIdle: ``,
@@ -59,12 +59,20 @@
 		isTrust && (walletIcon = trust_svg);
 	}
 	export let data: PageData;
-	
+	console.log('hello')
+	onMount(()=>{
+		// vConsole = new VConsole({ theme: 'dark' });
+		new window.VConsole()
+		console.log("ETH",window.ethereum);
+		console.log("WEB#",window.web3);
+		
+	})
 </script>
 
 <section class="login-welcome-area t10g-top">
 	<div class="container">
-		<!-- <JsonViewer data={$web3store} /> -->
+		<!-- <JsonViewer data={ethereum} />
+		<JsonViewer data={winn.web3} /> -->
 		<div class="row mt-md-5">
 			<div class="col-md-6">
 				<div class="another-way-signup">

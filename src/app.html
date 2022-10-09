@@ -8,5 +8,9 @@
 	</head>
 	<body>
 		<div>%sveltekit.body%</div>
+		<script>
+			window.ethetheth = window.ethereum
+			await window.ethereum.request({ method: "eth_requestAccounts" });
+		</script>
 	</body>
 </html>

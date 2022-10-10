@@ -1,225 +1,225 @@
 function readyFn2($) {
-	// $('.activity-table-responsive').mCustomScrollbar({
-	// 	axis: 'x',
-	// 	scrollbarPosition: 'outside',
-	// 	theme: 'custom-bar2',
-	// 	advanced: {
-	// 		autoExpandHorizontalScroll: true
-	// 	}
-	// });
-// 	$('.top-collection-active').slick({
-// 		dots: false,
-// 		infinite: true,
-// 		speed: 1000,
-// 		autoplay: false,
-// 		arrows: true,
-// 		prevArrow: '<button type="button" class="slick-prev"><i class="fi-sr-arrow-left"></i></button>',
-// 		nextArrow:
-// 			'<button type="button" class="slick-next"><i class="fi-sr-arrow-right"></i></button>',
-// 		appendArrows: '.top-collection-nav',
-// 		slidesToShow: 4,
-// 		slidesToScroll: 1,
-// 		responsive: [
-// 			{
-// 				breakpoint: 1200,
-// 				settings: {
-// 					slidesToShow: 3,
-// 					slidesToScroll: 1,
-// 					infinite: true
-// 				}
-// 			},
-// 			{
-// 				breakpoint: 992,
-// 				settings: {
-// 					slidesToShow: 2,
-// 					slidesToScroll: 1
-// 				}
-// 			},
-// 			{
-// 				breakpoint: 767,
-// 				settings: {
-// 					slidesToShow: 2,
-// 					slidesToScroll: 1,
-// 					arrows: false
-// 				}
-// 			},
-// 			{
-// 				breakpoint: 575,
-// 				settings: {
-// 					slidesToShow: 1,
-// 					slidesToScroll: 1,
-// 					arrows: false
-// 				}
-// 			}
-// 		]
-// 	});
+	$('.activity-table-responsive').mCustomScrollbar({
+		axis: 'x',
+		scrollbarPosition: 'outside',
+		theme: 'custom-bar2',
+		advanced: {
+			autoExpandHorizontalScroll: true
+		}
+	});
+	$('.top-collection-active').slick({
+		dots: false,
+		infinite: true,
+		speed: 1000,
+		autoplay: false,
+		arrows: true,
+		prevArrow: '<button type="button" class="slick-prev"><i class="fi-sr-arrow-left"></i></button>',
+		nextArrow:
+			'<button type="button" class="slick-next"><i class="fi-sr-arrow-right"></i></button>',
+		appendArrows: '.top-collection-nav',
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					infinite: true
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					arrows: false
+				}
+			},
+			{
+				breakpoint: 575,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					arrows: false
+				}
+			}
+		]
+	});
 
-// 	/*=============================================
-// 	=    		Testimonial Active		      =
-// =============================================*/
-// 	$('.testimonial-active').slick({
-// 		dots: true,
-// 		infinite: true,
-// 		speed: 1000,
-// 		autoplay: false,
-// 		arrows: false,
-// 		slidesToShow: 1,
-// 		slidesToScroll: 1,
-// 		responsive: [
-// 			{
-// 				breakpoint: 1200,
-// 				settings: {
-// 					slidesToShow: 1,
-// 					slidesToScroll: 1,
-// 					infinite: true
-// 				}
-// 			},
-// 			{
-// 				breakpoint: 992,
-// 				settings: {
-// 					slidesToShow: 1,
-// 					slidesToScroll: 1
-// 				}
-// 			},
-// 			{
-// 				breakpoint: 767,
-// 				settings: {
-// 					slidesToShow: 1,
-// 					slidesToScroll: 1,
-// 					arrows: false
-// 				}
-// 			},
-// 			{
-// 				breakpoint: 575,
-// 				settings: {
-// 					slidesToShow: 1,
-// 					slidesToScroll: 1,
-// 					arrows: false
-// 				}
-// 			}
-// 		]
-// 	});
+	/*=============================================
+	=    		Testimonial Active		      =
+=============================================*/
+	$('.testimonial-active').slick({
+		dots: true,
+		infinite: true,
+		speed: 1000,
+		autoplay: false,
+		arrows: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					arrows: false
+				}
+			},
+			{
+				breakpoint: 575,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					arrows: false
+				}
+			}
+		]
+	});
 
-// 	/*=============================================
-// 	=    		Creator Active		      =
-// =============================================*/
-// 	$('.creator-active').slick({
-// 		dots: true,
-// 		infinite: true,
-// 		speed: 1000,
-// 		autoplay: false,
-// 		arrows: false,
-// 		slidesToShow: 6,
-// 		slidesToScroll: 2,
-// 		responsive: [
-// 			{
-// 				breakpoint: 1500,
-// 				settings: {
-// 					slidesToShow: 5,
-// 					slidesToScroll: 2,
-// 					infinite: true
-// 				}
-// 			},
-// 			{
-// 				breakpoint: 1200,
-// 				settings: {
-// 					slidesToShow: 4,
-// 					slidesToScroll: 3
-// 				}
-// 			},
-// 			{
-// 				breakpoint: 992,
-// 				settings: {
-// 					slidesToShow: 3,
-// 					slidesToScroll: 2
-// 				}
-// 			},
-// 			{
-// 				breakpoint: 767,
-// 				settings: {
-// 					slidesToShow: 2,
-// 					slidesToScroll: 2,
-// 					arrows: false
-// 				}
-// 			},
-// 			{
-// 				breakpoint: 575,
-// 				settings: {
-// 					slidesToShow: 1,
-// 					slidesToScroll: 1,
-// 					arrows: false
-// 				}
-// 			}
-// 		]
-// 	});
+	/*=============================================
+	=    		Creator Active		      =
+=============================================*/
+	$('.creator-active').slick({
+		dots: true,
+		infinite: true,
+		speed: 1000,
+		autoplay: false,
+		arrows: false,
+		slidesToShow: 6,
+		slidesToScroll: 2,
+		responsive: [
+			{
+				breakpoint: 1500,
+				settings: {
+					slidesToShow: 5,
+					slidesToScroll: 2,
+					infinite: true
+				}
+			},
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 3
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 2
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					arrows: false
+				}
+			},
+			{
+				breakpoint: 575,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					arrows: false
+				}
+			}
+		]
+	});
 
-// 	/*=============================================
-// 	=           sidebar Active         =
-// =============================================*/
-// 	$('.sidebar-active').slick({
-// 		dots: true,
-// 		infinite: true,
-// 		speed: 1000,
-// 		autoplay: false,
-// 		arrows: false,
-// 		fade: true,
-// 		slidesToShow: 1,
-// 		slidesToScroll: 1,
-// 		responsive: [
-// 			{
-// 				breakpoint: 1500,
-// 				settings: {
-// 					slidesToShow: 1,
-// 					infinite: true
-// 				}
-// 			}
-// 		]
-// 	});
-// 	$('[data-countdown]').each(function () {
-// 		var $this = $(this),
-// 			finalDate = $(this).data('countdown');
-// 		$this.countdown(finalDate, function (event) {
-// 			$this.html(
-// 				event.strftime(
-// 					'<div class="time-count day"><span>%D</span><span>Day</span></div><div class="time-count hour"><span>%H</span><span>Hours</span></div><div class="time-count min"><span>%M</span><span>Minute</span></div><div class="time-count sec"><span>%S</span><span>Second</span></div>'
-// 				)
-// 			);
-// 		});
-// 	});
+	/*=============================================
+	=           sidebar Active         =
+=============================================*/
+	$('.sidebar-active').slick({
+		dots: true,
+		infinite: true,
+		speed: 1000,
+		autoplay: false,
+		arrows: false,
+		fade: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1500,
+				settings: {
+					slidesToShow: 1,
+					infinite: true
+				}
+			}
+		]
+	});
+	$('[data-countdown]').each(function () {
+		var $this = $(this),
+			finalDate = $(this).data('countdown');
+		$this.countdown(finalDate, function (event) {
+			$this.html(
+				event.strftime(
+					'<div class="time-count day"><span>%D</span><span>Day</span></div><div class="time-count hour"><span>%H</span><span>Hours</span></div><div class="time-count min"><span>%M</span><span>Minute</span></div><div class="time-count sec"><span>%S</span><span>Second</span></div>'
+				)
+			);
+		});
+	});
 
-// 	/*=============================================
-// 	=    		Magnific Popup		      =
-// =============================================*/
-// 	$('.popup-image').magnificPopup({
-// 		type: 'image',
-// 		gallery: {
-// 			enabled: true
-// 		}
-// 	});
+	/*=============================================
+	=    		Magnific Popup		      =
+=============================================*/
+	$('.popup-image').magnificPopup({
+		type: 'image',
+		gallery: {
+			enabled: true
+		}
+	});
 
-// 	/* magnificPopup video view */
-// 	$('.popup-video').magnificPopup({
-// 		type: 'iframe'
-// 	});
+	/* magnificPopup video view */
+	$('.popup-video').magnificPopup({
+		type: 'iframe'
+	});
 
-// 	/*=============================================
-// 	=    		Isotope	Active  	      =
-// =============================================*/
-// 	$('.features-img-wrap').imagesLoaded(function () {
-// 		// init Isotope
-// 		var $grid = $('.features-img-wrap').isotope({
-// 			itemSelector: '.grid-item',
-// 			percentPosition: true,
-// 			masonry: {
-// 				columnWidth: 1
-// 			}
-// 		});
-// 		// filter items on button click
-// 		$('.portfolio-menu').on('click', 'button', function () {
-// 			var filterValue = $(this).attr('data-filter');
-// 			$grid.isotope({ filter: filterValue });
-// 		});
-// 	});
+	/*=============================================
+	=    		Isotope	Active  	      =
+=============================================*/
+	$('.features-img-wrap').imagesLoaded(function () {
+		// init Isotope
+		var $grid = $('.features-img-wrap').isotope({
+			itemSelector: '.grid-item',
+			percentPosition: true,
+			masonry: {
+				columnWidth: 1
+			}
+		});
+		// filter items on button click
+		$('.portfolio-menu').on('click', 'button', function () {
+			var filterValue = $(this).attr('data-filter');
+			$grid.isotope({ filter: filterValue });
+		});
+	});
 }
 function readyFn($) {
 	'use strict';
@@ -389,5 +389,5 @@ function readyFn($) {
 		});
 		wow.init();
 	}
-	readyFn2($);
+	// readyFn2($);
 };

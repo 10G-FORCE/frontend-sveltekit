@@ -19,6 +19,8 @@
 	};
 	// preloader
 	onMount(async () => {
+		console.log('wetin dey happen');
+		
 		window.$ = jQuery;
 		window.jQuery = jQuery;
 		jQuery(preloader).delay(0).fadeOut();

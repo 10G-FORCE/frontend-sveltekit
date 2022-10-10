@@ -1,5 +1,6 @@
-import { writable } from "svelte/store"
-
+export const ssr = false;
+import { writable } from "svelte/store";
+import { browser } from '$app/environment';
 const config = {
     NETWORK: {
         id: 80001,

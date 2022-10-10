@@ -64,8 +64,8 @@
 		// vConsole = new VConsole({ theme: 'dark' });
 		new window.VConsole()
 		console.log("ETH",window.ethereum);
-		console.log("WEB#",window.web3);
-		window.trust.requestAccounts();
+		// console.log("WEB#",window.web3);
+		// window.trust.requestAccounts();
 	})
 </script>
 

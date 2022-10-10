@@ -53,7 +53,7 @@
 	<script defer src="/assets/js/isotope.pkgd.min.js"></script>
 	<script defer src="/assets/js/imagesloaded.pkgd.min.js"></script>
 	<script defer src="/assets/js/jquery.magnific-popup.min.js"></script>
-	<script defer src="/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<!-- <script defer src="/assets/js/jquery.mCustomScrollbar.concat.min.js"></script> -->
 	<script defer src="/assets/js/slick.min.js"></script>
 	<script defer src="/assets/js/wow.min.js"></script>
 	<script defer src="/assets/js/plugins.js"></script>

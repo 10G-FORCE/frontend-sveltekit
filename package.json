@@ -33,6 +33,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@walletconnect/ethereum-provider": "^1.8.0",
+		"ether-state": "^0.0.2",
+		"ethers": "^5.7.1",
 		"jquery": "^3.6.1",
 		"jquery.countdown": "^1.2.8"
 	}

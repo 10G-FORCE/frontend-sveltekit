@@ -11,23 +11,52 @@
 
     <div class="banner-bg">
         <!-- banner-area -->
-        <div class="banner-area">
+        <div class="banner-area" style="padding-bottom:0">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-8">
+                    <div class="col-lg-6 col-md-8" >
                         <div class="banner-content">
-                            <h2 class="title">Buy and sell digital art <br> <span>NFT</span> collection</h2>
-                            <p>Everything you need to build, host, scale amazing dapps free by creating account today</p>
-                            <a href="login-register.html" class="banner-btn">Let’s get started <i class="fi-sr-arrow-right"></i></a>
+                            <h2 class="title">Earn from this amazing <br> <span>SMART CONTRACT</span> application</h2>
+                            <p>Everything you need to become your boss in one place, start by creating an account today</p>
+                            <a href="/" class="banner-btn">Let’s get you rolling <i class="fi-sr-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+<div style="padding:0px 0px 50px 0px">
+        <div class="row">
+                    <div class="col-lg-12">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="sell-nfts-item">
+                            <span class="step-count">SPEED</span>
+                            <!-- <h5 class="title">Create And Sell</h5> -->
+                            <p>Instant payments via smart contract to your wallet.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="sell-nfts-item">
+                            <span class="step-count">PROFIT</span>
+                            <!-- <h5 class="title">Create Collection</h5> -->
+                            <p>100% of the turnover becomes the income of the participants.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="sell-nfts-item">
+                            <span class="step-count">TEAM</span>
+                            <!-- <h5 class="title">Add Your NFTs</h5> -->
+                            <p>A community where each other helps to make money.</p>
+                        </div>
+                    </div></div>
+    
+    </div>
         <!-- banner-area-end -->
 
         <!-- top-seller-area -->
-        <div class="top-seller-area">
+        <!-- <div class="top-seller-area">
             <div class="container">
                 <div class="top-seller-wrap">
                     <div class="row">
@@ -101,7 +130,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- top-seller-area-end -->
     </div>
 
@@ -113,14 +142,13 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title mb-45">
-                            <h2 class="title">Create And Sell Your NFTs <img src="/assets/img/icons/title_icon03.png" alt=""></h2>
+                            <h2 class="title">How do I start earing with 10G-FORCE? <img src="" alt="earnLOGO"></h2>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="sell-nfts-item">
-                            <img src="/assets/img/icons/nfts_01.png" alt="" class="icon">
                             <span class="step-count">go step 1</span>
                             <h5 class="title">Create And Sell</h5>
                             <p>Wallet that is functional for NFT purchasing. You have Coinbase account at this point.</p>
@@ -128,7 +156,6 @@
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="sell-nfts-item">
-                            <img src="/assets/img/icons/nfts_02.png" alt="" class="icon">
                             <span class="step-count">go step 2</span>
                             <h5 class="title">Create Collection</h5>
                             <p>Wallet that is functional for NFT purchasing. You have Coinbase account at this point.</p>
@@ -136,7 +163,6 @@
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="sell-nfts-item">
-                            <img src="/assets/img/icons/nfts_03.png" alt="" class="icon">
                             <span class="step-count">go step 3</span>
                             <h5 class="title">Add Your NFTs</h5>
                             <p>Wallet that is functional for NFT purchasing. You have Coinbase account at this point.</p>
@@ -144,7 +170,6 @@
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="sell-nfts-item">
-                            <img src="/assets/img/icons/nfts_04.png" alt="" class="icon">
                             <span class="step-count">go step 4</span>
                             <h5 class="title">List Them For Sale</h5>
                             <p>Wallet that is functional for NFT purchasing. You have Coinbase account at this point.</p>
@@ -156,69 +181,10 @@
         <!-- sell-nfts-area-end -->
     </div>
 
-    <!-- latest-news -->
-    <section class="latest-news-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="section-title mb-45">
-                        <h2 class="title">Resources <img src="/assets/img/icons/title_icon01.png" alt=""></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-xl-4 col-md-6 col-sm-9">
-                    <div class="latest-news-item">
-                        <div class="latest-news-thumb">
-                            <img src="/assets/img/blog/news_thumb01.png" alt="">
-                        </div>
-                        <div class="latest-news-content">
-                            <ul class="latest-news-meta">
-                                <li><i class="flaticon-user"></i><a href="blog.html">Admin</a></li>
-                                <li><i class="fi-sr-calendar"></i> Jan 12, 2022</li>
-                            </ul>
-                            <h4 class="title"><a href="blog-details.html">Top 5 Most Popular NFT Games world most powerful ?</a></h4>
-                            <a href="blog-details.html" class="btn">read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-9">
-                    <div class="latest-news-item">
-                        <div class="latest-news-thumb">
-                            <img src="/assets/img/blog/news_thumb02.png" alt="">
-                        </div>
-                        <div class="latest-news-content">
-                            <ul class="latest-news-meta">
-                                <li><i class="flaticon-user"></i><a href="blog.html">Admin</a></li>
-                                <li><i class="fi-sr-calendar"></i> Jan 19, 2022</li>
-                            </ul>
-                            <h4 class="title"><a href="blog-details.html">NFTs, rare digital items worlds crypto collectibles</a></h4>
-                            <a href="blog-details.html" class="btn">read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-9">
-                    <div class="latest-news-item">
-                        <div class="latest-news-thumb">
-                            <img src="/assets/img/blog/news_thumb03.png" alt="">
-                        </div>
-                        <div class="latest-news-content">
-                            <ul class="latest-news-meta">
-                                <li><i class="flaticon-user"></i><a href="blog.html">Admin</a></li>
-                                <li><i class="fi-sr-calendar"></i> Jan 19, 2022</li>
-                            </ul>
-                            <h4 class="title"><a href="blog-details.html">Crypto enthusiasts on a single platform to create</a></h4>
-                            <a href="blog-details.html" class="btn">read more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- latest-news-end -->
+  
 
     <!-- design-ways-area -->
-    <section class="design-ways-area">
+    <!-- <section class="design-ways-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
@@ -263,12 +229,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- design-ways-area-end -->
 
     <!-- testimonial-area -->
     <section class="testimonial--area">
         <div class="container">
+            <h2 class="title" style="padding-top:2rem; padding-bottom:0rem">Testimonials <img src="/assets/img/icons/title_icon01.png" alt=""></h2>
             <div class="testimonial-shape-wrap">
                 <div class="row justify-content-center">
                     <div class="col-xl-8 col-lg-9 col-md-10">
@@ -281,7 +248,7 @@
                                     <p>“ What even is an NFT? NFT stands for non-fungible token, which basically means that it's one kind digital asset that belongs to you and you only. The most popular NFTs right include artwork and music, include videos and even tweets “</p>
                                     <div class="testimonial--avatar--info">
                                         <h5 class="title">Alexandra Pilot</h5>
-                                        <a href="contact.html" class="see-all">See All Reviews</a>
+                                        <a href="/" class="see-all">See All Reviews</a>
                                     </div>
                                 </div>
                             </div>
@@ -293,7 +260,7 @@
                                     <p>“ What even is an NFT? NFT stands for non-fungible token, which basically means that it's one kind digital asset that belongs to you and you only. The most popular NFTs right include artwork and music, include videos and even tweets “</p>
                                     <div class="testimonial--avatar--info">
                                         <h5 class="title">Alexandra Pilot</h5>
-                                        <a href="contact.html" class="see-all">See All Reviews</a>
+                                        <a href="/" class="see-all">See All Reviews</a>
                                     </div>
                                 </div>
                             </div>
@@ -305,7 +272,7 @@
                                     <p>“ What even is an NFT? NFT stands for non-fungible token, which basically means that it's one kind digital asset that belongs to you and you only. The most popular NFTs right include artwork and music, include videos and even tweets “</p>
                                     <div class="testimonial--avatar--info">
                                         <h5 class="title">Alexandra Pilot</h5>
-                                        <a href="contact.html" class="see-all">See All Reviews</a>
+                                        <a href="/" class="see-all">See All Reviews</a>
                                     </div>
                                 </div>
                             </div>
@@ -316,5 +283,107 @@
         </div>
     </section>
     <!-- testimonial-area-end -->
+
+      <!-- latest-news -->
+                <section class="latest-news-area">
+                    <div class="container">
+                        <div class="section-title mb-45">
+                            <h2 class="title">Latest News <img src="/assets/img/icons/title_icon01.png" alt=""></h2>
+                        </div>
+                        <div class="card mb-3 car ">
+                            
+                            <div class="row g-0">
+                                    
+                              <div class="col-md-2">
+                                <img src="/assets/img/blog/news_thumb03.png" class="img-fluid rounded-start news" alt="...">
+                              </div>
+                              <div class="col-md-10">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                              <div class="col-md-2">
+                                <img src="/assets/img/blog/news_thumb03.png" class="img-fluid rounded-start news" alt="...">
+                              </div>
+                              <div class="col-md-10">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                              
+                              <div class="col-md-2">
+                                <img src="/assets/img/blog/news_thumb03.png" class="img-fluid rounded-start news" alt="...">
+                              </div>
+                              <div class="col-md-10">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <!-- <div class="row">
+                            <div class="col-md-7">
+                                <div class="section-title mb-45">
+                                    <h2 class="title">Latest News <img src="/assets/img/icons/title_icon01.png" alt=""></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+
+                <div class="col-xl-4 col-md-6 col-sm-9">
+                    <div class="latest-news-item">
+                        <div class="latest-news-thumb">
+                            <img src="/assets/img/blog/news_thumb02.png" alt="">
+                        </div>
+                        <div class="latest-news-content">
+                            <ul class="latest-news-meta">
+                                <li><i class="flaticon-user"></i><a href="blog.html">Admin</a></li>
+                                <li><i class="fi-sr-calendar"></i> Jan 19, 2022</li>
+                            </ul>
+                            <h4 class="title"><a href="/">NFTs, rare digital items worlds crypto collectibles</a></h4>
+                            <a href="/" class="btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-9">
+                    <div class="latest-news-item">
+                        <div class="latest-news-thumb">
+                            <img src="/assets/img/blog/news_thumb03.png" alt="">
+                        </div>
+                        <div class="latest-news-content">
+                            <ul class="latest-news-meta">
+                                <li><i class="flaticon-user"></i><a href="blog.html">Admin</a></li>
+                                <li><i class="fi-sr-calendar"></i> Jan 19, 2022</li>
+                            </ul>
+                            <h4 class="title"><a href="/">Crypto enthusiasts on a single platform to create</a></h4>
+                            <a href="/" class="btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-9">
+                    <div class="latest-news-item">
+                        <div class="latest-news-thumb">
+                            <img src="/assets/img/blog/news_thumb03.png" alt="">
+                        </div>
+                        <div class="latest-news-content">
+                            <ul class="latest-news-meta">
+                                <li><i class="flaticon-user"></i><a href="blog.html">Admin</a></li>
+                                <li><i class="fi-sr-calendar"></i> Jan 19, 2022</li>
+                            </ul>
+                            <h4 class="title"><a href="/">This is it, a point to celebrate</a></h4>
+                            <a href="/" class="btn">read more</a>
+                        </div>
+                    </div>
+                </div> -->
+            <!-- </div> -->
+        </div>
+    </section>
+    <!-- latest-news-end -->
 
 </main>

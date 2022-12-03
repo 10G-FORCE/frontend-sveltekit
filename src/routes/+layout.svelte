@@ -34,7 +34,7 @@
 <svelte:head>
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
 	<!-- Place favicon.ico in the root directory -->
-	<title>10G FORCE</title>
+	<title>10G-FORCE</title>
 	<meta name="description" content="The Best simple blockchain networking platform" />
 	<!-- CSS here -->
 	<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
@@ -72,7 +72,7 @@
 	<button class="scroll-top scroll-to-target" data-target="html">
 		<i class="fas fa-angle-up" />
 	</button>
-	<div class="sidebar">
+	<!-- <div class="sidebar">
 		<div class="sidebar-logo mb-25">
 			<a href="/"><img src="" alt="10G" /></a>
 		</div>
@@ -87,7 +87,7 @@
 				<li><a href="#0" id="btnFullscreen"><i class="fi-sr-tool-marquee" /></a></li>
 			</ul>
 		</div>
-	</div>
+	</div> -->
 	<div class="main-content">
 		<!-- header-area -->
 		<header>
@@ -102,7 +102,7 @@
 									<div class="header-form">
 										<form action="#">
 											<button><i class="flaticon-search" /></button>
-											<input type="text" placeholder="Search Artwork" />
+											<input type="text" placeholder="Search Site" />
 										</form>
 									</div>
 									<div class="navbar-wrap main-menu d-none d-lg-flex">
@@ -110,8 +110,8 @@
 											<li class="active"><a href="/">Home</a></li>
 											<!-- <li><a href="/">Explore</a></li> -->
 											<li><a href="/guides">Guides</a></li>
-											<li><a href="/auth">LOGIN</a></li>
-											<li><a href="/auth">SIGNUP</a></li>
+											<li><a href="/auth">Login</a></li>
+											<li><a href="/auth">Signup</a></li>
 										</ul>
 									</div>
 									<!-- <div class="header-action d-none d-md-block">
@@ -126,7 +126,7 @@
 								<nav class="menu-box">
 									<div class="close-btn"><i class="fas fa-times" /></div>
 									<div class="nav-logo">
-										<a href="/"><img src="/assets/img/logo/logo.png" alt="" /></a>
+										<a href="/"><img src="" alt="10GLOGO" /></a>
 									</div>
 									<div class="menu-outer">
 										<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->

@@ -72,7 +72,7 @@
 	<button class="scroll-top scroll-to-target" data-target="html">
 		<i class="fas fa-angle-up" />
 	</button>
-	<!-- <div class="sidebar">
+	<div class="sidebar">
 		<div class="sidebar-logo mb-25">
 			<a href="/"><img src="" alt="10G" /></a>
 		</div>
@@ -87,7 +87,7 @@
 				<li><a href="#0" id="btnFullscreen"><i class="fi-sr-tool-marquee" /></a></li>
 			</ul>
 		</div>
-	</div> -->
+	</div>
 	<div class="main-content">
 		<!-- header-area -->
 		<header>

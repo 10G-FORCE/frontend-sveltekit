@@ -134,6 +134,27 @@
         <!-- top-seller-area-end -->
     </div>
 
+    <div class='container'>
+        <h2 style="margin-top: 20px;">What Is 10G-FORCE?</h2>
+        <p>Force is a global Cryptocurrency Ecosystem whose members help each other to achieve financial well-being using our tools and algorithm of instant profit distribution on smart contracts. The META FORCE system belongs to our Community and is fully decentralized , which means it is transparent, secure and resistant to external influences.</p>
+            <div class="row">
+                            <div class="row justify-content-center">
+                                    <div class="sell-nfts-item"  style="max-width:900px">
+                                        <p class="text-center">Instant payments via smart contract to your wallet.</p>
+                                    </div>
+                                </div>
+                                </div>
+            <p>The platform Force is open and available to everyone. The process of entering the community and starting to make a profit is so simple that you only need a laptop or a smartphone with an Internet connection. Develop matrix platforms and invite partners to the structure, for which you get remuneration in POLYGON cryptocurrencies.</p>
+                                <div class="row">
+                                    <div class="row justify-content-center">
+                                            <div class="sell-nfts-item"  style="max-width:900px">
+                                                <p class="text-center">Instant payments via smart contract to your wallet.</p>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <h5 class="text-center" style="margin-bottom:40px">Learn more here</h5>
+        </div>
+
     <div class="area-bg">
         <!-- week-features-area -->
         <!-- sell-nfts-area -->
@@ -286,103 +307,78 @@
 
       <!-- latest-news -->
                 <section class="latest-news-area">
-                    <div class="container">
+                    
+                    <div class="container-news" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
                         <div class="section-title mb-45">
                             <h2 class="title">Latest News <img src="/assets/img/icons/title_icon01.png" alt=""></h2>
                         </div>
-                        <div class="card mb-3 car ">
+                        <!--card with shadow-->
+                          <article class="card border-news">
+                            <div>
+                              <img src="https://images.unsplash.com/photo-1540317700647-ec69694d70d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="image">
+                            </div>
+                      
+                            <div class="news-content">
+                                <ul class="latest-news-meta">
+                                    <li><i class="fi-sr-calendar"></i> Jan 19, 2022</li>
+                                </ul>
+                                <h4 class="title"><a href="/">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
+                                <p> Aenean ultrices bibendum mollis. Sed aliquet, enim at vulputate porttitor, felis nunc vehicula ante, blandit lobortis mi massa non leo. Sed dui enim, interdum non rhoncus vitae, blandit eu eros. Nulla facilisi.</p>
+                                <a href="/" class="btn">read more</a>
+                            </div>
+                          </article>
+                           
+                        <!--card with border-->
+                          <article class="card border-news">
+                            <div>
+                              <img src="https://images.unsplash.com/photo-1509070016581-915335454d19?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="image">
+                            </div>
+                      
+                            <div class="news-content">
+                                <ul class="latest-news-meta">
+                                    <li><i class="fi-sr-calendar"></i> Jan 19, 2022</li>
+                                </ul>
+                                <h4 class="title"><a href="/">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
+                                <p> Aenean ultrices bibendum mollis. Sed aliquet, enim at vulputate porttitor, felis nunc vehicula ante, blandit lobortis mi massa non leo. Sed dui enim, interdum non rhoncus vitae, blandit eu eros. Nulla facilisi.</p>
+                                <a href="/" class="btn">read more</a>
+                            </div>
+                          </article>
+                          
+                       
+                          <article class="card border-news">
+                            <div>
+                              <img src="https://images.unsplash.com/photo-1506202687253-52e1b29d3527?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="image">
+                            </div>
+                    
+                            <div class="news-content">
+                                <ul class="latest-news-meta">
+                                    <li><i class="fi-sr-calendar"></i> Jan 19, 2022</li>
+                                </ul>
+                                <h4 class="title"><a href="/">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
+                                <p> Aenean ultrices bibendum mollis. Sed aliquet, enim at vulputate porttitor, felis nunc vehicula ante, blandit lobortis mi massa non leo. Sed dui enim, interdum non rhoncus vitae, blandit eu eros. Nulla facilisi.</p>
+                                <a href="/" class="btn">read more</a>
+                            </div>
+                          </article>
+                          
+                           
+                      
+                          <article class="card border-news">
+                            <div>
+                              <img src="https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="image">
+                            </div>
+                      
                             
-                            <div class="row g-0">
-                                    
-                              <div class="col-md-2">
-                                <img src="/assets/img/blog/news_thumb03.png" class="img-fluid rounded-start news" alt="...">
-                              </div>
-                              <div class="col-md-10">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                              </div>
-                              <div class="col-md-2">
-                                <img src="/assets/img/blog/news_thumb03.png" class="img-fluid rounded-start news" alt="...">
-                              </div>
-                              <div class="col-md-10">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                              </div>
-                              
-                              <div class="col-md-2">
-                                <img src="/assets/img/blog/news_thumb03.png" class="img-fluid rounded-start news" alt="...">
-                              </div>
-                              <div class="col-md-10">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                              </div>
+                            <div class="news-content">
+                                <ul class="latest-news-meta">
+                                    <li><i class="fi-sr-calendar"></i> Jan 19, 2022</li>
+                                </ul>
+                                <h4 class="title"><a href="/">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
+                                <p> Aenean ultrices bibendum mollis. Sed aliquet, enim at vulputate porttitor, felis nunc vehicula ante, blandit lobortis mi massa non leo. Sed dui enim, interdum non rhoncus vitae, blandit eu eros. Nulla facilisi.</p>
+                                <a href="/" class="btn">read more</a>
                             </div>
-                          </div>
-                        <!-- <div class="row">
-                            <div class="col-md-7">
-                                <div class="section-title mb-45">
-                                    <h2 class="title">Latest News <img src="/assets/img/icons/title_icon01.png" alt=""></h2>
-                                </div>
-                            </div>
+                          </article>
+                          
                         </div>
-                        <div class="row justify-content-center">
-
-                <div class="col-xl-4 col-md-6 col-sm-9">
-                    <div class="latest-news-item">
-                        <div class="latest-news-thumb">
-                            <img src="/assets/img/blog/news_thumb02.png" alt="">
-                        </div>
-                        <div class="latest-news-content">
-                            <ul class="latest-news-meta">
-                                <li><i class="flaticon-user"></i><a href="blog.html">Admin</a></li>
-                                <li><i class="fi-sr-calendar"></i> Jan 19, 2022</li>
-                            </ul>
-                            <h4 class="title"><a href="/">NFTs, rare digital items worlds crypto collectibles</a></h4>
-                            <a href="/" class="btn">read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-9">
-                    <div class="latest-news-item">
-                        <div class="latest-news-thumb">
-                            <img src="/assets/img/blog/news_thumb03.png" alt="">
-                        </div>
-                        <div class="latest-news-content">
-                            <ul class="latest-news-meta">
-                                <li><i class="flaticon-user"></i><a href="blog.html">Admin</a></li>
-                                <li><i class="fi-sr-calendar"></i> Jan 19, 2022</li>
-                            </ul>
-                            <h4 class="title"><a href="/">Crypto enthusiasts on a single platform to create</a></h4>
-                            <a href="/" class="btn">read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-9">
-                    <div class="latest-news-item">
-                        <div class="latest-news-thumb">
-                            <img src="/assets/img/blog/news_thumb03.png" alt="">
-                        </div>
-                        <div class="latest-news-content">
-                            <ul class="latest-news-meta">
-                                <li><i class="flaticon-user"></i><a href="blog.html">Admin</a></li>
-                                <li><i class="fi-sr-calendar"></i> Jan 19, 2022</li>
-                            </ul>
-                            <h4 class="title"><a href="/">This is it, a point to celebrate</a></h4>
-                            <a href="/" class="btn">read more</a>
-                        </div>
-                    </div>
-                </div> -->
-            <!-- </div> -->
-        </div>
     </section>
     <!-- latest-news-end -->
 

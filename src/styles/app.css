@@ -71,6 +71,12 @@ body {
 	color: var(--primary-color);
 	font-style: normal;
 	background: var(--section-background-color);
+	/* font-family: 'Raleway', sans-serif; */
+	/* line-height: 1.5; */
+	/* font-size: 1rem; */
+	/* color: #444; */
+	/* margin: 0; */
+	/* background-color: #efe9e9; */
 }
 img,
 .img {
@@ -174,6 +180,12 @@ ul {
 }
 li {
 	list-style: none;
+	/* min-width: 122px;
+    font-size: 12px; */
+    padding: 0px 25px;
+    float: right;
+	margin-bottom: 5px;
+	color: rgb(174, 163, 163);
 }
 p {
 	font-size: 15px;
@@ -939,6 +951,7 @@ label {
 	margin-bottom: 3px;
 	font-weight: 500;
 	color: var(--paragraph-text-color);
+	
 }
 .author-content p {
 	font-size: 12px;
@@ -4218,14 +4231,91 @@ label {
 		-webkit-transform: scale(0);
 	}
 }
-
-.car{
-    padding: 1.5em .5em .5em;
-    border-radius: 2em;
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
-}
-
-.news{
-	padding:10px;
+* {
+	box-sizing: border-box;
+  }
+  .container-news {
+	width: 1290px;
+	margin: 1rem auto;
+  }
+  
+  .card {
+	height: 150px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+	overflow: hidden;
+	background-color: #1D1933;
+	padding: 1.5em .5em .5em;
 	border-radius: 2em;
-}
+	box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	color: #000;
+  }
+  
+  .card div:first-child {
+	flex-basis: 35%;
+  }
+  
+  .card div:last-child {
+	flex-basis: 65%;
+	padding: 0 0.5rem 0.25rem;
+  }
+  
+  .card img {
+	display: block;
+	width: 100%;
+	height: 140px;
+	object-fit: cover;
+	padding: 0.5em .5em 1em;
+	border-radius: 2em;
+  }
+  
+  .card p {
+	margin-top: 0.5rem;
+	margin-bottom: 0.35rem;
+	max-width: 700px;
+    margin: -22px 10px;
+    padding-top: 24px;
+  }
+.card a {
+	margin-top: 0.5rem;
+	margin-bottom: 0.35rem;
+	max-width: 300px;
+  }
+  
+  .shadow {
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+	  0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .border-news {
+	border: 1px solid #ddd;
+	margin-bottom: 50px;
+  }
+  
+  .curve {
+	border-radius: 0.35rem;
+  }
+  
+  @media (min-width: 768px) {
+	.container-news {
+	  max-width:1290px;
+	}
+  
+	.card div:first-child {
+	  flex-basis: 30%;
+	}
+  
+	.card div:last-child {
+	  flex-basis: 70%;
+	}
+  }
+  
+  .news-content .btn{
+	
+    min-width: 120px;
+    font-size: 15px;
+    padding: 10px 25px;
+    float: right;
+	margin-top: 10px;
+  }

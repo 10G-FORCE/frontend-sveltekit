@@ -9,10 +9,12 @@
 </script>
 <main>
 
-    <div class="banner-bg">
-        <!-- banner-area -->
-        <div class="banner-area" style="padding-bottom:0">
-            <div class="container">
+    
+           
+                <div class="banner-bg">
+                    <!-- banner-area -->
+                    <div class="banner-area" style="padding-bottom:0">
+                        <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-8" >
                         <div class="banner-content">
@@ -22,13 +24,18 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-<div style="padding:0px 0px 50px 0px">
+            
+           
+            
+        
+<!-- <div style="padding:0px 0px 50px 0px"> -->
         <div class="row">
-                    <div class="col-lg-12">
-                    </div>
-                </div>
+                    <!-- <div class="col-lg-12">
+                        <div class="section-title mb-45">
+                            <h2 class="title">How do I start earing with 10G-FORCE? <img src="" alt="earnLOGO"></h2>
+                        </div>
+                    </div> -->
+                
                 <div class="row justify-content-center">
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="sell-nfts-item">
@@ -50,90 +57,12 @@
                             <!-- <h5 class="title">Add Your NFTs</h5> -->
                             <p>A community where each other helps to make money.</p>
                         </div>
-                    </div></div>
+                    
     
+    </div></div></div></div>
+       <!-- what is 10G-FORCE?  -->
     </div>
-        <!-- banner-area-end -->
-
-        <!-- top-seller-area -->
-        <!-- <div class="top-seller-area">
-            <div class="container">
-                <div class="top-seller-wrap">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="section-title mb-40">
-                                <h2 class="title">Top Seller <img src="/assets/img/icons/title_icon01.png" alt=""></h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <div class="top-seller-item">
-                                <div class="top-seller-img">
-                                    <img src="/assets/img/others/top-seller-img.jpg" alt="">
-                                </div>
-                                <div class="top-seller-content">
-                                    <h5 class="title"><a href="author-profile.html">Alan walker</a></h5>
-                                    <p>885.5 <span>Eth</span></p>
-                                    <ul class="icon">
-                                        <li><a href="collections.html"><i class="fi-sr-pharmacy"></i></a></li>
-                                        <li><a href="login-register.html"><i class="fi-sr-share"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <div class="top-seller-item">
-                                <div class="top-seller-img">
-                                    <img src="/assets/img/others/top-seller-img02.jpg" alt="">
-                                </div>
-                                <div class="top-seller-content">
-                                    <h5 class="title"><a href="author-profile.html">Mazanov Sky</a></h5>
-                                    <p>885.5 <span>Eth</span></p>
-                                    <ul class="icon">
-                                        <li><a href="collections.html"><i class="fi-sr-pharmacy"></i></a></li>
-                                        <li><a href="login-register.html"><i class="fi-sr-share"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <div class="top-seller-item">
-                                <div class="top-seller-img">
-                                    <img src="/assets/img/others/top-seller-img03.jpg" alt="">
-                                </div>
-                                <div class="top-seller-content">
-                                    <h5 class="title"><a href="author-profile.html">Alvin Nov</a></h5>
-                                    <p>885.5 <span>Eth</span></p>
-                                    <ul class="icon">
-                                        <li><a href="collections.html"><i class="fi-sr-pharmacy"></i></a></li>
-                                        <li><a href="login-register.html"><i class="fi-sr-share"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <div class="top-seller-item">
-                                <div class="top-seller-img">
-                                    <img src="/assets/img/others/top-seller-img04.jpg" alt="">
-                                </div>
-                                <div class="top-seller-content">
-                                    <h5 class="title"><a href="author-profile.html">Jimmy Dom</a></h5>
-                                    <p>885.5 <span>Eth</span></p>
-                                    <ul class="icon">
-                                        <li><a href="collections.html"><i class="fi-sr-pharmacy"></i></a></li>
-                                        <li><a href="login-register.html"><i class="fi-sr-share"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- top-seller-area-end -->
-    </div>
-
+</div>
     <div class='container'>
         <h2 style="margin-top: 20px;">What Is 10G-FORCE?</h2>
         <p>Force is a global Cryptocurrency Ecosystem whose members help each other to achieve financial well-being using our tools and algorithm of instant profit distribution on smart contracts. The META FORCE system belongs to our Community and is fully decentralized , which means it is transparent, secure and resistant to external influences.</p>
@@ -204,55 +133,7 @@
 
   
 
-    <!-- design-ways-area -->
-    <!-- <section class="design-ways-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                    <div class="design-ways-item">
-                        <div class="overlay-icon"><i class="flaticon-download"></i></div>
-                        <div class="icon"><i class="flaticon-download"></i></div>
-                        <div class="content">
-                            <h3 class="title">Free</h3>
-                            <p>Only two download</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                    <div class="design-ways-item">
-                        <div class="overlay-icon"><i class="flaticon-download-1"></i></div>
-                        <div class="icon"><i class="flaticon-download-1"></i></div>
-                        <div class="content">
-                            <h3 class="title">Unlimited</h3>
-                            <p>Personal & commercial use</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                    <div class="design-ways-item">
-                        <div class="overlay-icon"><i class="flaticon-help"></i></div>
-                        <div class="icon"><i class="flaticon-help"></i></div>
-                        <div class="content">
-                            <h3 class="title">Support</h3>
-                            <p>You can download</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                    <div class="design-ways-item">
-                        <div class="overlay-icon"><i class="flaticon-repairing-service"></i></div>
-                        <div class="icon"><i class="flaticon-repairing-service"></i></div>
-                        <div class="content">
-                            <h3 class="title">Private</h3>
-                            <p>Personal data collection</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- design-ways-area-end -->
-
+   
     <!-- testimonial-area -->
     <section class="testimonial--area">
         <div class="container">
@@ -313,7 +194,7 @@
                             <h2 class="title">Latest News <img src="/assets/img/icons/title_icon01.png" alt=""></h2>
                         </div>
                         <!--card with shadow-->
-                          <article class="card border-news">
+                          <article class="card border-news col-xl-9 col-lg-9 col-md-9">
                             <div>
                               <img src="https://images.unsplash.com/photo-1540317700647-ec69694d70d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="image">
                             </div>

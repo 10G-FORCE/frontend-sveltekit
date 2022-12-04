@@ -4235,7 +4235,7 @@ label {
 	box-sizing: border-box;
   }
   .container-news {
-	width: 1290px;
+	max-width: 1290px;
 	margin: 1rem auto;
   }
   
